@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg {
+    background-image: url(/assets/img/BG.png);
+    height: 800px;
+}
+
+.btn-main {
+    background-color: #473BF0;
+    color: white;
+}
+
+.text-logo {
+    color: #161C2D;
+}
+
+li:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    opacity: 0.9;
+}
