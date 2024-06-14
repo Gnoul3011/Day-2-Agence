@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agence</title>
-    <link rel="stylesheet" href="./build/tailwind.css">
+    <link rel="stylesheet" href="/build/tailwind.css">
     <link rel="stylesheet" href="./assets/css/tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
 
-    <div class="grid">
+    <div class="grid container">
         <div class="bg">
             <header class="grid grid-cols-12 p-6 items-center ">
                 <a href="#" class="col-start-3 text-logo text-2xl font-bold cursor-pointer">
@@ -34,15 +36,86 @@
                     </ul>
                 </div>
                 <div class="col-start-10">
-                    <button class="btn-main p-4 rounded w-52 text-lg font-semibold"> Get started a project</button>
+                    <button class="btn-main p-4 rounded-xl w-52 text-lg font-semibold"> Get started a project</button>
                 </div>
             </header>
 
-            <div class="grid grid-cols-12">
-                <div class=""></div>
+            <div class="grid grid-cols-12 mt-16">
+                <div class="right col-start-3 ml-16 col-span-4 ">
+                    <p style="color: #F64B4B;" class="uppercase font-semibold mb-8">Let’s shift your business</p>
+                    <h2 class="text-4xl font-bold mb-6">Shift your business fast with Shade Pro.</h2>
+                    <p style="color: #161C2D;" class="font-extralight mb-16">With lots of unique blocks, you can easily
+                        build
+                        a page without
+                        coding. Build your next
+                        consultancy website within few minutes.</p>
+                    <button class="btn-main p-4 rounded-xl w-52 text-lg font-semibold">Get started a project</button>
+                </div>
+                <div class="left col-start-8 col-span-4 grid">
+                    <img src="./assets/img/Image.png" style="width: 463px; height: 504px;" class=" " alt="">
+                </div>
             </div>
 
         </div>
+
+        <section class="mt-28">
+            <div class="flex justify-center text-center items-center flex-col">
+                <div>
+                    <p style="color: #F64B4B;" class="uppercase mb-6">Our services</p>
+                    <h3 style="width: 521px;" class=" text-3xl font-bold mb-28">We provide great services for our
+                        customers
+                        based on
+                        needs</h3>
+                </div>
+
+                <div class="grid grid-cols-3 gap-6 relative ">
+                    <div class="rounded-lg mx-auto flex justify-center items-center flex-col"
+                        style="background-color: #83FFA3; width: 350px; height: 483px;">
+                        <img src="./assets/img/Designer-rafiki.png" alt="">
+                        <h3 class="font-bold text-2xl mt-8 text-white mb-8 ">Graphic Design</h3>
+                        <p class="font-extralight text-white mx-4 ">With lots of unique blocks, you can easily build
+                            a
+                            page
+                            without
+                            coding. Build your next
+                            landing page.</p>
+                        <button class="bg-transparent font-semibold mt-16 text-white">Learn more <i
+                                class="fa-solid fa-arrow-right text-white ml-6"></i></button>
+                    </div>
+                    <div class="rounded-lg mx-auto flex justify-center items-center flex-col"
+                        style="background-color: #407BFF; width: 350px; height: 483px;">
+                        <img src="./assets/img/Programming-rafiki.png" alt="">
+                        <h3 class="font-bold text-2xl mt-8 text-white mb-8 ">Web Development</h3>
+                        <p class="font-extralight text-white mx-4 ">With lots of unique blocks, you can easily build
+                            a
+                            page
+                            without
+                            coding. Build your next
+                            landing page.</p>
+                        <button class="bg-transparent font-semibold mt-16 text-white">Learn more <i
+                                class="fa-solid fa-arrow-right text-white ml-6"></i></button>
+                    </div>
+                    <div class="rounded-lg mx-auto flex justify-center items-center flex-col"
+                        style="background-color: #FF7171; width: 350px; height: 483px;">
+                        <img src="./assets/img/Notes-rafiki.png" alt="">
+                        <h3 class="font-bold text-2xl mt-8 text-white mb-8 ">Content Writing</h3>
+                        <p class="font-extralight text-white mx-4 ">With lots of unique blocks, you can easily build
+                            a
+                            page
+                            without
+                            coding. Build your next
+                            landing page.</p>
+                        <button class="bg-transparent font-semibold mt-16 text-white">Learn more <i
+                                class="fa-solid fa-arrow-right text-white ml-6"></i></button>
+                    </div>
+                    <div class="absolute -bottom-12 -right-12 -z-10">
+                        <img src="./assets/img/Group 101.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
     </div>
 </body>
 

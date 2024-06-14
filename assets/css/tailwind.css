@@ -5,6 +5,7 @@
 .bg {
     background-image: url(/assets/img/BG.png);
     height: 800px;
+    max-width: 100%;
 }
 
 .btn-main {
